@@ -1,2 +1,2 @@
 # TicTacToe
-ttt-game
+ttt-game to practice html, css and javascript 
