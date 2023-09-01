@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TIC TAC TOE</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="" />
+  </head>
+  <body>
+    <div class="gameContainer">
+      <h1>TTT GAME</h1>
+      <div class="difContianer">
+        <label for="AIDif">AI Difficulty</label>
+        <select name="" id="AIDif">
+          <option value="easy">easy</option>
+          <option value="medium">medium</option>
+          <option value="hard">hard</option>
+          <option value="impossible">impossible</option>
+        </select>
+        <!-- <input id="difficultySlider" class="slider" type="range" max="3" value="1"> -->
+      </div>
+      <div class="scoring">
+        <div class="user">
+          <div class="username name align1">You</div>
+          <div class="userScore score align1">0</div>
+        </div>
+        <div class="score">-</div>
+        <div class="user">
+          <div class="AIScore score align2">0</div>
+          <div class="AIName name align2"></div>
+        </div>
+      </div>
+      <div class="gridContainer">
+        <div class="gridCell" data-index="0"></div>
+        <div class="gridCell" data-index="1"></div>
+        <div class="gridCell" data-index="2"></div>
+        <div class="gridCell" data-index="3"></div>
+        <div class="gridCell" data-index="4"></div>
+        <div class="gridCell" data-index="5"></div>
+        <div class="gridCell" data-index="6"></div>
+        <div class="gridCell" data-index="7"></div>
+        <div class="gridCell" data-index="8"></div>
+        <div class="displayContainer">
+          <div class="display"></div>
+        </div>
+      </div>
+      <button id="rematch">Rematch/Restart</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
